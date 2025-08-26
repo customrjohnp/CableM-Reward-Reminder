@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" style="margin:0;padding:0;">
+<head>
+  <meta charset="utf-8">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Reward Expires Soon</title>
+</head>
+<body bgcolor="#ffffff" style="margin:0;padding:0;background:#ffffff;">
+  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" bgcolor="#ffffff">
+    <tr>
+      <td width="100%" align="center" valign="top">
+        <!-- Outer fixed-width table -->
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="610">
+          <tr>
+            <td style="padding:0 5px;">
+              <!-- Inner 600px container -->
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" bgcolor="#ffffff">
+
+                <!-- Top spacing -->
+                <tr><td height="20"></td></tr>
+
+                <!-- View online -->
+                <tr>
+                  <td align="center" style="line-height:1.2;">
+                    <a href="https://suite34.emarsys.net/u/gm.php?prm=_7374290&_esuh=_11_e7b2a8e17368c8771a2da8f02d4c9c9ccdf2432f8a96fb8f553450d71ddf97f8"
+                       target="_blank"
+                       style="font-family:mr eaves modern,Arial,Helvetica,sans-serif;font-size:10px;color:#808080;text-decoration:none;">
+                      VIEW ONLINE
+                    </a>
+                  </td>
+                </tr>
+
+                <tr><td height="10"></td></tr>
+
+                <!-- Loyalty metrics (segment gated) -->
+                {% if contact.is_in_segment('2805159') %}
+                <tr>
+                  <td>
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td width="30"></td>
+                        <td align="center" style="font-family:mr eaves modern,Arial,Helvetica,sans-serif;font-size:11px;color:#000000;line-height:1.5;">
+                          <span style="font-size:10px;">
+                            <br>
+                            MEMBER TIER: {{ contact.24362 }}
+                            &nbsp;&nbsp;&nbsp;&nbsp;POINTS: {% if contact.24403 == '' %}0{% else %}{{ contact.24403 }}{% endif %}
+                            &nbsp;&nbsp;&nbsp;&nbsp;REWARDS: $ {% if contact.24367 == '' %}0{% else %}{{ contact.24367 }}{% endif %}
+                            <br>
+                            SPEND TO NEXT TIER: $
+                            {% if contact.24402|number_format(2, '.', ',') is empty %}0{% else %}{{ contact.24402|number_format(2, '.', ',') }}{% endif %}
+                            <br>
+                          </span>
+                        </td>
+                        <td width="30"></td>
+                      </tr>
+                      <tr><td colspan="3" height="20"></td></tr>
+                    </table>
+                  </td>
+                </tr>
+                {% endif %}
+
+                <!-- Logo -->
+                <tr>
+                  <td align="center">
+                    <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374290_1_1&ems_l=0&i=1&_esuh=_11_af6a8786ffd6f49dc94c1a23d738610e697ccccb8a3eee8b01901ea3eec058ea"
+                       target="_blank" style="text-decoration:none;color:#000000;">
+                      <img src="https://link.cablemelbourne.com/custloads/794301826/md_1036939.jpg"
+                           width="180" border="0" style="display:block;width:180px;" alt="Cable Melbourne">
+                    </a>
+                  </td>
+                </tr>
+
+                <tr><td height="23"></td></tr>
+
+                <!-- Top nav -->
+                <tr>
+                  <td align="center">
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="text-align:center;font-size:0;" width="100%">
+                      <tr>
+                        <td align="center" style="font-family:mr eaves modern,Arial,Helvetica,sans-serif;font-size:10px;line-height:1.2;">
+                          <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374290_1_3&ems_l=0&i=1&_esuh=_11_d234d6c1252235d98bf1ae5b95dbc7c95bdb587bbe303e4f48d428358c329d47" target="_blank" style="text-decoration:none;color:#001b2f;text-transform:uppercase;">New Arrivals</a>
+                          &nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374290_1_5&ems_l=0&i=1&_esuh=_11_71d591718d46c07d48381360bac898434a6a5da2ecb94665905901df83e88627" target="_blank" style="text-decoration:none;color:#001b2f;text-transform:uppercase;">Dresses</a>
+                          &nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374290_1_7&ems_l=0&i=1&_esuh=_11_5e6c31b589682bdee9b0473a28e59b70877d18b27d893ac72fdd1b1e7308ddd5" target="_blank" style="text-decoration:none;color:#001b2f;text-transform:uppercase;">Tops</a>
+                          &nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374290_1_9&ems_l=0&i=1&_esuh=_11_6ec5a7584d28fd6ddcd5bd424ec8e361dd584b985802572cffed969dcb45d1e1" target="_blank" style="text-decoration:none;color:#001b2f;text-transform:uppercase;">Pants &amp; Shorts</a>
+                          &nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374290_1_11&ems_l=0&i=1&_esuh=_11_a1d8f9f243efaf0e692d358a5c63ee6bfc3e69d789f0805b2add60907388c10d" target="_blank" style="text-decoration:none;color:#001b2f;text-transform:uppercase;">Knitwear</a>
+                          &nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374290_1_13&ems_l=0&i=1&_esuh=_11_af6f6fa3987cf48c2ad8e1fdc37bc48f94a11f8357a855e27ee829ecef9f247d" target="_blank" style="text-decoration:none;color:#001b2f;text-transform:uppercase;">Lookbook</a>
+                          &nbsp;&nbsp;&nbsp;&nbsp;
+                          <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374290_1_15&ems_l=0&i=1&_esuh=_11_e4fca713c4ffce0256244f592c70682c295a75e6183e7b7fcd2aa19768ae3e2c" target="_blank" style="text-decoration:none;color:#d42a31;text-transform:uppercase;">Sale</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <tr><td height="10"></td></tr>
+
+                <!-- HERO (correct banner) -->
+                <tr>
+                  <td align="center">
+                    <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374290_1_17&ems_l=0&i=1&_esuh=_11_a415c84b62a5c6effdff53d5d8a6b8d5d8f77224237b32b6053ab87b7acfa0e2"
+                       target="_blank" style="text-decoration:none;color:#000000;">
+                      <img src="http://link.cablemelbourne.com/custloads/794301826/md_1240479.jpg"
+                           width="600" border="0" style="display:block;width:600px;" alt="Your Reward Expires Soon">
+                    </a>
+                  </td>
+                </tr>
+
+                <!-- Copy block -->
+                <tr>
+                  <td>
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                      <tr><td width="30"></td>
+                        <td align="center" style="font-family:mr eaves modern,Arial,Helvetica,sans-serif;color:#000000;">
+                          <div style="height:23px;"></div>
+                          <div style="font-size:14px;line-height:1.6;">
+                            This is a reminder that you have rewards totalling
+                          </div>
+                          <div style="height:12px;"></div>
+                          <div style="font-size:25px;line-height:1.2;">
+                            <span style="font-family:verdana,geneva;">$</span>
+                            <span style="font-family:verdana,geneva;">
+                              {% if contact.24367 == '' %}0{% else %}{{ contact.24367 }}{% endif %}
+                            </span>
+                          </div>
+                          <div style="height:12px;"></div>
+                          <div style="font-size:14px;line-height:1.6;">
+                            Expiring <span style="text-decoration:underline;">
+                              {{ contact.24368 |localized_date('en','dd/MM/yy') }}
+                            </span>
+                            <br><br>
+                            Your rewards are available for redemption from any participating Cable retail store or in your next online order.
+                            <br><br>
+                            *T&amp;CS APPLY.
+                          </div>
+                          <div style="height:27px;"></div>
+                        </td>
+                        <td width="30"></td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <!-- CTA: Shop Now (image) -->
+                <tr>
+                  <td align="center">
+                    <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374290_1_19&ems_l=0&i=1&_esuh=_11_980e0593afbd13ac4f376b2c56b553b686bf5e06b6bcacd28070c59203b41d89"
+                       target="_blank" style="text-decoration:none;color:#000000;">
+                      <img src="https://link.cablemelbourne.com/custloads/794301826/md_1146726.jpg"
+                           width="600" border="0" style="display:block;width:600px;" alt="Shop Now">
+                    </a>
+                  </td>
+                </tr>
+
+                <!-- After CTA image: Visit a store -->
+                <tr>
+                  <td align="center">
+                    <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374290_1_21&ems_l=0&i=1&_esuh=_11_b7b65d017d20ceaf589cbcc47951a8f66936a0adec03461f26e0f9e48c040387"
+                       target="_blank" style="text-decoration:none;color:#000000;">
+                      <img src="http://link.cablemelbourne.com/custloads/794301826/md_1222176.jpg"
+                           width="600" border="0" style="display:block;width:600px;" alt="Visit A CABLE Store Near You">
+                    </a>
+                  </td>
+                </tr>
+
+                <tr><td height="20"></td></tr>
+
+                <!-- Small Cable badge -->
+                <tr>
+                  <td align="center">
+                    <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374290_1_23&ems_l=0&i=1&_esuh=_11_f4b1b892b652004d985bec7a8c45ecee8b55352532368f608dcfeb7c189897eb"
+                       target="_blank" style="text-decoration:none;color:#000000;">
+                      <img src="https://link.cablemelbourne.com/custloads/794301826/md_1204323.jpg"
+                           width="60" border="0" style="display:block;" alt="Cable">
+                    </a>
+                  </td>
+                </tr>
+
+                <tr><td height="23"></td></tr>
+                <tr><td height="1" bgcolor="#cccccc"></td></tr>
+                <tr><td height="10"></td></tr>
+
+                <!-- Social icons -->
+                <tr>
+                  <td align="center">
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td align="center" valign="top">
+                          <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374290_1_27&ems_l=0&i=1&_esuh=_11_b4dbe0b5c84b09335e2fbb3e4ef929cb7b371ff6ed5fde31d63b5c1a5d948840" target="_blank">
+                            <img src="https://suite34-cdnnet.emarsys.net/custloads/794301826/vce/ig2x.png" width="24" border="0" style="display:block;" alt="fb">
+                          </a>
+                        </td>
+                        <td width="10"></td>
+                        <td align="center" valign="top">
+                          <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374290_1_29&ems_l=0&i=1&_esuh=_11_6e16b6d1fb7275080f94a9cb3f3d1cc21cdf44d9bdc0f0c311e57dc012d3e643" target="_blank">
+                            <img src="https://suite34-cdnnet.emarsys.net/custloads/794301826/vce/fb2x.png" width="24" border="0" style="display:block;" alt="ins">
+                          </a>
+                        </td>
+                        <td width="10"></td>
+                        <td align="center" valign="top">
+                          <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374290_1_31&ems_l=0&i=1&_esuh=_11_7883890913799f734da8f89741a2ece37af5ae980acdb0cc67665c54779f023e" target="_blank">
+                            <img src="https://suite34-cdnnet.emarsys.net/custloads/794301826/vce/li2x.png" width="24" border="0" style="display:block;" alt="ins">
+                          </a>
+                        </td>
+                        <td width="10"></td>
+                        <td align="center" valign="top">
+                          <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374290_1_33&ems_l=0&i=1&_esuh=_11_13f3de4baad38529704074fafd50d75e3f40d7ce9b9811e902cadaa2ec47f7bc" target="_blank">
+                            <img src="https://suite34-cdnnet.emarsys.net/custloads/794301826/vce/pin2x.png" width="24" border="0" style="display:block;" alt="ins">
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <tr><td height="25"></td></tr>
+
+                <!-- Delivery / AfterPay strip -->
+                <tr>
+                  <td align="center">
+                    <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374
